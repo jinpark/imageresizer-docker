@@ -10,4 +10,5 @@ test:
   override:
     - docker-compose up -d
     - cd web/tests
+    - pwd
     - python test_app.py
