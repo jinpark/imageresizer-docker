@@ -3,7 +3,7 @@ FROM ubuntu:14.10
 
 # install dependencies
 RUN apt-get -y update
-RUN apt-get install -y python python-dev python-pip
+RUN apt-get install -y python python-dev python-pip libffi-dev libssl-dev libmagickwand-dev
 
 # add requirements.txt and install
 ADD requirements.txt /code/requirements.txt

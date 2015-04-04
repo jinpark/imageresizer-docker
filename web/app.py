@@ -122,4 +122,4 @@ def bad_request(bad_var_name="", error=None):
     return resp
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0", port=5000)
