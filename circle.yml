@@ -9,4 +9,5 @@ dependencies:
 test:
   override:
     - docker-compose up -d
-    - python web/tests/test_app.py
+    - cd web/tests
+    - python test_app.py
