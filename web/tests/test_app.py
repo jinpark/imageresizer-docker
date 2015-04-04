@@ -27,7 +27,7 @@ def requests_stub(*args, **kwargs):
         response.headers = {'content-type': 'image/jpeg'}
         return response
     else:
-        with open('tests/images/50x200_pre.jpeg', 'r') as f:
+        with open('web/tests/images/50x200_pre.jpeg', 'r') as f:
             response.content = f.read()
             response.headers = {'content-type': 'image/jpeg'}
             return response
