@@ -6,7 +6,7 @@ RUN apt-get -y update
 RUN apt-get install -y python python-dev python-pip libffi-dev libssl-dev libmagickwand-dev
 
 # add requirements.txt and install
-ADD /web /code
+ADD . /code
 RUN pip install -r /code/requirements.txt
 
 EXPOSE 80
