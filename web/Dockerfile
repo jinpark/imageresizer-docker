@@ -9,7 +9,7 @@ RUN apt-get install -y python python-dev python-pip libffi-dev libssl-dev libmag
 ADD . /code
 RUN pip install -r /code/requirements.txt
 
-EXPOSE 80
+EXPOSE 5000
 
 # set working diretory
 WORKDIR /code
