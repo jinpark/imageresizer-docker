@@ -4,4 +4,4 @@ web:
         - web:/code
     ports:
         - "80:5000"
-    command: python app.py
+    command: honcho start

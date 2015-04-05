@@ -14,4 +14,4 @@ EXPOSE 5000
 # set working diretory
 WORKDIR /code
 
-CMD python app.py
+CMD honcho start
