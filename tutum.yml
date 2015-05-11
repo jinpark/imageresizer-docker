@@ -1,4 +1,4 @@
 web:
-    images: jinpark/imageresizer-docker
+    image: jinpark/imageresizer-docker
     ports:
         - "80:5000"
